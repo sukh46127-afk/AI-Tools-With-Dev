@@ -11,7 +11,30 @@
     padding:0;
     box-sizing:border-box;
 }
+.navbar{
+    background:#111827;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
 
+.logo{
+    font-size:22px;
+    font-weight:bold;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+}
 body{
     font-family:Arial, sans-serif;
     background:#f5f7fb;
@@ -83,7 +106,19 @@ footer{
 </head>
 
 <body>
+<nav class="navbar">
+    <div class="logo">AI Tools With Dev</div>
 
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#tools">AI Tools</a></li>
+        <li><a href="https://www.youtube.com/@AIToolsWithDev" target="_blank">
+           YouTube
+        </a>
+    </li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 <section class="hero">
     <img src="logo.jpg" alt="AI Tools With Dev Logo" width="150">
     <h1>AI Tools With Dev</h1>
